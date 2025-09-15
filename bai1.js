@@ -20,7 +20,7 @@ function App() {
         <input
           type="text"
           value={todo}
-          onChange={(e) => setTodo(e.target.value)} // Cập nhật state khi người dùng nhập
+          onChange={(e) => setTodo(e.target.value)}
           placeholder="Nhập công việc"
         />
         <button onClick={addTodo}>Thêm</button>
@@ -38,3 +38,4 @@ function App() {
 }
 
 export default App;
+
